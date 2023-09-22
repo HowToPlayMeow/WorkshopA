@@ -1,4 +1,4 @@
-def ID( ) :
+def ID() :
     x = float(input('x = '))
     return x
 
@@ -11,7 +11,7 @@ def YA( x, y ) :
     print(f'ตอบ : {y:.0f}')
 
 print('-----------------------------')
-x = ID( )
+x = ID()
 y = XY( x )
 print('-----------------------------')
 YA( x, y )
